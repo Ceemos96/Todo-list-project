@@ -1,6 +1,6 @@
 # Todo list Project
 
-> This is Todo list project using modular html+css+javascript, ES6 syntax, and Webpack.
+> This is the Microverse Todo list project using  html + css + modular javascript, ES6 syntax, and Webpack.
 
 
 ## Built With
