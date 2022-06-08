@@ -34,6 +34,4 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, 'dist'),
   },
-  mode: 'development',
-
 };
