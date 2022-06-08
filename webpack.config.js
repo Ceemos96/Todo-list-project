@@ -26,9 +26,6 @@ module.exports = {
     ],
   },
   devServer: {
-      static: path.join(__dirname, 'dist')
-  }, 
-  mode: 'development'
-  
-
+    static: path.join(__dirname, 'dist'),
+  },
 };
