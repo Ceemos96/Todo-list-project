@@ -86,7 +86,6 @@ body {
   display: block;
 } */
 
-
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
@@ -103,6 +102,6 @@ body {
   background-color: #eaecc8;
 }
 
-.hide{
+.hide {
   display: none;
 }
