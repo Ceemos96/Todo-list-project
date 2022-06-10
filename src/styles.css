@@ -14,9 +14,9 @@ body {
 #todo-container {
   display: block;
   margin: 0 auto;
-  width: 400px;
+  width: 60%;
   background: white;
-  box-shadow: 10px 10px 10px #d7d5d5;
+  box-shadow: 0 0 15px #6f6c6c;
   margin-top: 13rem;
 }
 
@@ -26,9 +26,10 @@ body {
   padding: 0.4rem;
 }
 
-#todo-input {
+.todo-input {
   width: 100%;
   padding: 0.7rem;
+  position: relative;
 }
 
 #todo-list {
@@ -51,6 +52,8 @@ body {
 
 .task-description {
   margin-top: 0.5rem;
+  width: 70%;
+  text-align: left;
 }
 
 .task-checkbox {
@@ -75,9 +78,14 @@ body {
   font-size: 19px;
 }
 
-.delete-btn {
+/* .delete-btn {
   display: none;
 }
+
+.delete-btn .show{
+  display: block;
+} */
+
 
 .completed {
   text-decoration: line-through;
@@ -89,4 +97,12 @@ body {
   padding: 1rem;
   font-size: 20px;
   cursor: pointer;
+}
+
+.edit {
+  background-color: #eaecc8;
+}
+
+.hide{
+  display: none;
 }
