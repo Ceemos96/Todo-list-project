@@ -1,6 +1,11 @@
-import displayTasks from './modules/display.js';
+/* eslint-disable no-unused-vars */
+import updateDom from './modules/display.js';
 import './styles.css';
-// eslint-disable-next-line no-unused-vars
-import list from './modules/list.js';
+import addTasks from './modules/UI.js';
+import deleteTodo from './modules/delete.js';
+import editTodo from './modules/edit.js';
 
-displayTasks(list);
+addTasks();
+updateDom();
+deleteTodo();
+editTodo();
