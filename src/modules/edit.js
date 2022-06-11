@@ -4,7 +4,7 @@ export default function editodo() {
   const task = document.querySelectorAll('.task-description');
   task.forEach((item) => {
     let previousTask = item.textContent;
-    item.addEventListener('keydown', (e) => {
+    item.addEventListener('keyup', (e) => {
       if (e.key === 'Enter') {
         e.preventDefault();
         const nextTask = item.textContent;
