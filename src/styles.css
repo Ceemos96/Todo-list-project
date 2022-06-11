@@ -78,14 +78,6 @@ body {
   font-size: 19px;
 }
 
-/* .delete-btn {
-  display: none;
-}
-
-.delete-btn .show{
-  display: block;
-} */
-
 .completed {
   text-decoration: line-through;
   opacity: 0.5;

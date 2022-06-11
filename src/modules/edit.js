@@ -12,9 +12,9 @@ export default function editodo() {
         list[focusedArray[0].index - 1].description = nextTask;
         previousTask = nextTask;
         localStorage.setItem('list', JSON.stringify(list));
-        item.parentElement.classList.remove('highlight');
-        item.nextElementSibling.classList.remove('hidden');
-        item.nextElementSibling.nextElementSibling.classList.add('hidden');
+        item.parentElement.classList.remove('edit');
+        item.nextElementSibling.childNodes[0].firstChild.classList.remove('hide');
+        item.nextElementSibling.childNodes[1].firstChild.classList.add('hide');
       }
     });
   });

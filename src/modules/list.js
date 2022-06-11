@@ -4,6 +4,10 @@
 
 export let list = JSON.parse(localStorage.getItem('list')) || [];
 
+export function setList(passedList) {
+  list = passedList;
+}
+
 export default function interactive() {
   const check = document.querySelectorAll('.task-checkbox');
   check.forEach((box) => {

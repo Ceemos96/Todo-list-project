@@ -1,4 +1,4 @@
-import { list } from './list.js';
+import { list, setList } from './list.js';
 
 export default function deleteTodo() {
   const task = document.querySelectorAll('.task');
@@ -17,10 +17,8 @@ export default function deleteTodo() {
   deleteBtn.forEach((item) => {
     item.addEventListener('click', (e) => {
       const taskRemove = e.target.parentElement.parentElement.parentElement;
-      const taskRemoveContent = taskRemove.firstChild.nextSibling.textContent;
+      setList(list.filter((task) => `${task.index}` !== taskRemove.id));
       todoList.removeChild(taskRemove);
-
-      list = list.filter((task) => task.description !== taskRemoveContent);
       for (let i = 0; i < list.length; i += 1) {
         list[i].index = i + 1;
       }
