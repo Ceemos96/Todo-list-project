@@ -11,7 +11,7 @@
 - Linter
 
 ## Link to project online
-- [Online Version](https://ceemos96.github.io/Todo-list-project/)
+- [Online Version](https://ceemos96.github.io/Todo-list-project/dist)
 
 ## Getting Started
 
